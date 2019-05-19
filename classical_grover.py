@@ -3,9 +3,7 @@ import itertools
 
 def create_Zf(f, bits):
     dim = 2**bits
-    # creating a 2^n x 2^n zeros matrix.
     Zf = np.eye(dim, dtype=int)
-    # This creates a list of the different permutations of n bits.
     lst_bitseq = list(map(list, itertools.product([0, 1], repeat=bits)))
     for col, bitseq in enumerate(lst_bitseq):
         if f(bitseq) == 1:
