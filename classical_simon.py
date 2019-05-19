@@ -18,9 +18,13 @@ def create_Uf(f, num_qubits):
 
 
 def solve_eqns(eqns):
-    if not eqns:
-        assert('No equations were passed.')
+    assert eqns, 'No equations were passed.'
     s = np.ones(len(eqns[0]))
     for eqn in eqns:
         s[[bit==1 for bit in bits]] = 0
     return s
+
+def main():
+    solve_eqns([])
+
+main()
