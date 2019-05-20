@@ -48,7 +48,7 @@ were very similar to what we learned in class. For example.
 
 
 |PyQuil Names                        | Key concepts on Quantum Programming|
-|---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 |I(qubit)                            | Produces the I identity gate.|
 |X(qubit)                            | Produces the X (“NOT”) gate.|
 |Y(qubit)                            | Produces the Y gate.|
