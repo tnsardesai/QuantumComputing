@@ -21,7 +21,7 @@ def solve_eqns(eqns):
     assert eqns, 'No equations were passed.'
     s = np.ones(len(eqns[0]))
     for eqn in eqns:
-        s[[bit==1 for bit in bits]] = 0
+        s[[bit==1 for bit in eqn]] = 0
     return s
 
 def main():
