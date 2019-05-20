@@ -47,15 +47,15 @@ specify which quibit we are working with by indexing them with a number. Most of
 were very similar to what we learned in class. For example. 
 
 
-|PyQuil Names                        | Key concepts on Quantum Programming|
----------------------------------------------------------------------------------
-|I(qubit)                            | Produces the I identity gate.|
-|X(qubit)                            | Produces the X (“NOT”) gate.|
-|Y(qubit)                            | Produces the Y gate.|
-|Z(qubit)                            | Produces the Z gate.|
-|CZ(control, target)	             | Produces a controlled-Z gate.|
-|CNOT(control, target)	             | Produces a controlled-NOT (controlled-X) gate.|
-|CCNOT(control1, control2, target)	 | Produces a doubly-controlled NOT gate.|
+| PyQuil Names | Key concepts on Quantum Programming |
+| ------------ | ----------------------------------- |
+| I(qubit) | Produces the I identity gate. |
+| X(qubit) | Produces the X (“NOT”) gate. |
+| Y(qubit) | Produces the Y gate. |
+| Z(qubit) | Produces the Z gate. |
+| CZ(control, target)	| Produces a controlled-Z gate. |
+| CNOT(control, target)	| Produces a controlled-NOT (controlled-X) gate. |
+| CCNOT(control1, control2, target)	 | Produces a doubly-controlled NOT gate. |
 
 
 **How much type checking does the PyQuil implementation do at run time when a program passes data from the classical side to the quantum side and back?**
