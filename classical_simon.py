@@ -1,30 +1,38 @@
 import numpy as np
 
+def find_diag_idx(W):
+    fixed = False
+    pos = 0
+    for idx, row in enumerate(W):
+        if np.all(row[:idx+1] == 0):
+            W = list(W)
+            new_row = np.zeros(len(row), dtype=int)
+            new_row[idx] = 1
+            W.insert(idx, new_row)
+            fixed = True
+            pos = idx
+            break
+    if not fixed:
+        W = list(W)
+        new_row = np.zeros(len(row), dtype=int)
+        new_row[idx+1] = 1
+        pos = idx+1
+        W.insert(idx+1, new_row)
+    return pos, W
 
-def create_Uf(f, num_qubits):
-    dim = 2**num_qubits
-    # creating a 2^n x 2^n zeros matrix. 
-    Uf = np.zeros((dim, dim), dtype=int)
-    # This creates a list of the different permutations of n bits. 
-    lst_bitseq = list(map(list, itertools.product([0, 1], repeat=n)))
-    for col, bitseq in enumerate(lst_bitseq):
-        # applying the operation on the last helper bit. 
-        last_bit = bitseq[-1] ^ f(bitseq[:-1])
-        final_bitseq = [bit for bit in bitseq]
-        final_bitseq[-1] = last_bit
-        # using the To-Form method discussed in class to help create the Uf matrix. 
-        Uf[lst_bitseq.index(final_bitseq), col] = 1
-    return Uf
+def insert_new_row(W):
+    pos, W = find_diag_idx(W)
+    return pos, W
 
 
-def solve_eqns(eqns):
-    assert eqns, 'No equations were passed.'
-    s = np.ones(len(eqns[0]))
-    for eqn in eqns:
-        s[[bit==1 for bit in bits]] = 0
-    return s
+def find_solution(eqns):
+    from scipy.linalg import lu
+    W = np.array(eqns)
+    _,_,W = lu(W)
+    pos, W = insert_new_row(W)
+    b = np.zeros(len(W[0]))
+    b[pos] = 1
+    return np.linalg.solve(W,b)
 
-def main():
-    solve_eqns([])
 
-main()
+print(find_solution([[0,0,1],[1,1,1]]))
