@@ -22,14 +22,14 @@ Three aspects that it supports well:
 2. The format of returned qubits is also very easy to understand and deal with.
 3. Easily integrates with third party libraries like NumPy etc.
 
-Three aspects that it supports poorly are:
+Based on the HW programs that we have written, we felt that for our purposes, PyQuil 
+supported everything very well. For the most part, we wanted to write clean Pythonic code
+with easy to use numpy library functions and PyQuil all of them with in the best way possible. 
 
 
 **Which feature would you like PyQuil to support to make the quantum programming easier?**
 
-It would be nice to see PyQuil support data visualization features after n number of trials have been run. For these homeworks,
-we wrote our own code to help plot the success rate and execution time for various inputs but it would be helpful for future 
-developers to have an inbuilt PyQuil function to do that. 
+It would be nice to see PyQuil support data visualization features after n number of trials have been run. For these homeworks, we wrote our own code to help plot the success rate and execution time for various inputs but it would be helpful for future developers to have an inbuilt PyQuil function to do that. 
 
 **List three positives and three negatives of the documentation of PyQuil.**
 
@@ -43,8 +43,22 @@ I can't think of any negatives on the documentation. I think it is very well wri
 
 **In some cases, PyQuil has its own names for key concepts in quantum programming.  Give a dictionary that maps key concepts in quantum programming to the names used in PyQuil.**
 
+In class we abstracted the difference between different qubits however, in pyquil we have to explicitly 
+specify which quibit we are working with by indexing them with a number. Most of the other PyQuil names 
+were very similar to what we learned in class. For example. 
 
+-------------------------------------------------------------------------------------
+PyQuil Names                        -> Key concepts on Quantum Programming
+-------------------------------------------------------------------------------------         
+I(qubit)                            -> Produces the I identity gate.
+X(qubit)                            -> Produces the X (“NOT”) gate.
+Y(qubit)                            -> Produces the Y gate.
+Z(qubit)                            -> Produces the Z gate.
+CZ(control, target)	                -> Produces a controlled-Z gate.
+CNOT(control, target)	            -> Produces a controlled-NOT (controlled-X) gate.
+CCNOT(control1, control2, target)	-> Produces a doubly-controlled NOT gate.
+--------------------------------------------------------------------------------------
 
 **How much type checking does the PyQuil implementation do at run time when a program passes data from the classical side to the quantum side and back?**
 
-A hell lot. A crazy amount.
+
