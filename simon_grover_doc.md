@@ -13,12 +13,17 @@ Aspects easy to learn were:
 3. Because it's a Python library, it's easy to combine the classical and quantum computations in one code. 
 
 Aspects difficult to learn were:
-1. 
+There is nothing that we found that hard about PyQuil. Given that the algorithm was covered well in class and the documentation was easy to understand, we didn't face much hardship about this assignment.
 
 **List three aspects of quantum programming in PyQuil that the language supports well and list three aspects that PyQuil supports poorly.**
 
 Three aspects that it supports well:
-1. 
+1. The addition of quantum gates just by += is a very good and intuitive way for creating quantum circuits.
+2. The format of returned qubits is also very easy to understand and deal with.
+3. Easily integrates with third party libraries like NumPy etc.
+
+Three aspects that it supports poorly are:
+
 
 **Which feature would you like PyQuil to support to make the quantum programming easier?**
 
