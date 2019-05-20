@@ -9,8 +9,8 @@
 
 Aspects easy to learn were:
 1. It's extremely easy to build and test quantum circuits. 
-2. Integrates well with existing popular Python libraries like Numpy. 
-3. Because it's a Python library, it makes it easy to combine the classical and quantum computations in one code. 
+2. Integrates very well with existing popular Python libraries like Numpy. 
+3. Because it's a Python library, it's easy to combine the classical and quantum computations in one code. 
 
 Aspects difficult to learn were:
 1. 
