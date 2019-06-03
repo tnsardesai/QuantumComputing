@@ -1,0 +1,11 @@
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/bin/Debug/netcoreapp2.2/myApp.deps.json
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/bin/Debug/netcoreapp2.2/myApp.runtimeconfig.json
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/bin/Debug/netcoreapp2.2/myApp.runtimeconfig.dev.json
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/bin/Debug/netcoreapp2.2/myApp.dll
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/bin/Debug/netcoreapp2.2/myApp.pdb
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/obj/Debug/netcoreapp2.2/myApp.csprojAssemblyReference.cache
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/obj/Debug/netcoreapp2.2/myApp.csproj.CoreCompileInputs.cache
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/obj/Debug/netcoreapp2.2/myApp.AssemblyInfoInputs.cache
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/obj/Debug/netcoreapp2.2/myApp.AssemblyInfo.cs
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/obj/Debug/netcoreapp2.2/myApp.dll
+/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/myApp/obj/Debug/netcoreapp2.2/myApp.pdb
