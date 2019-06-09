@@ -114,13 +114,8 @@
     }
   }
 
-  operation AssertDJAlgorithmWorks (N : Int, oracle : ((Qubit[], Qubit) => Unit), expected : Bool, msg : String) : Unit {
-        EqualityFactB(DeutschJozsa(N, oracle), expected, msg);
-    }
-
   operation RunDeutschJozsa(N : Int) : Bool[]{
     mutable result = new Bool[4];
-    AssertDJAlgorithmWorks(4, Oracle_Zero_Reference, false,  "f(x) = 0 not identified as constant");
     set result w/= 0 <- DeutschJozsa(N, Oracle_Zero_Reference);
     set result w/= 1 <- DeutschJozsa(N, Oracle_One_Reference);
     set result w/= 2 <- DeutschJozsa(N, Oracle_OddNumberOfOnes_Reference);
