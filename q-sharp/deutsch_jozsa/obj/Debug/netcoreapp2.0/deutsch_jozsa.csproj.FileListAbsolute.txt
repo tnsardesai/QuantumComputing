@@ -1,0 +1,11 @@
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.csprojAssemblyReference.cache
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.csproj.CoreCompileInputs.cache
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.AssemblyInfoInputs.cache
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.AssemblyInfo.cs
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.deps.json
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.runtimeconfig.json
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.runtimeconfig.dev.json
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.dll
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.pdb
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.dll
+/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.pdb
