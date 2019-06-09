@@ -15,30 +15,18 @@
 
   operation Oracle_One_Reference (x : Qubit[], y : Qubit) : Unit 
   is Adj {
-      // Since f(x) = 1 for all values of x, |y ⊕ f(x)⟩ = |y ⊕ 1⟩ = |NOT y⟩.
-      // This means that the operation needs to flip qubit y (i.e. transform |0⟩ to |1⟩ and vice versa).
       X(y);
   }
 
   operation Oracle_OddNumberOfOnes_Reference (x : Qubit[], y : Qubit) : Unit 
     is Adj {       
-        // Hint: f(x) can be represented as x_0 ⊕ x_1 ⊕ ... ⊕ x_(N-1)
         for (q in x) {
             CNOT(q, y);
         }
-        // alternative solution: ApplyToEachA(CNOT(_, y), x);
-    }
-
-  operation Oracle_Kth_Qubit_Reference (x : Qubit[], y : Qubit, k : Int) : Unit
-    is Adj {        
-        EqualityFactB(0 <= k and k < Length(x), true, "k should be between 0 and N-1, inclusive");
-        CNOT(x[k], y);
     }
 
   operation Oracle_ProductFunction_Reference (x : Qubit[], y : Qubit, r : Int[]) : Unit
     is Adj {        
-        // The following line enforces the constraint on the input arrays.
-        // You don't need to modify it. Feel free to remove it, this won't cause your code to fail.
         EqualityFactI(Length(x), Length(r), "Arrays should have the same length");
             
         for (i in IndexRange(x)) {
@@ -51,7 +39,6 @@
   operation DeutschJozsa (N : Int, Uf : ((Qubit[], Qubit) => Unit)) : Bool {
     mutable result = true;
     using ((x, b) = (Qubit[N], Qubit())) {
-
       ApplyToEachA(H, x);
       X(b);
       H(b);
@@ -62,19 +49,11 @@
 
       mutable r = new Int[N];
 
-      // for (i in 0..N-1) {
-      //   Message($"{r}");
-      // }
-
       for (i in 0..N-1) {
         if (M(x[i]) != Zero) {
           set r w/= i <- 1;
         }
       }
-
-      // for (i in 0..N-1) {
-      //   Message($"{r}");
-      // }
 
       for (i in 0 .. N - 1) {
         set result = result and r[i] == 0;
@@ -87,7 +66,6 @@
 
 
   operation BernsteinVazirani (N : Int, Uf : ((Qubit[], Qubit) => Unit)) : Int[] {
-    mutable result = true;
     using ((x, b) = (Qubit[N], Qubit())) {
 
       ApplyToEachA(H, x);
@@ -114,18 +92,28 @@
     }
   }
 
-  operation RunDeutschJozsa(N : Int) : Bool[]{
-    mutable result = new Bool[4];
-    set result w/= 0 <- DeutschJozsa(N, Oracle_Zero_Reference);
-    set result w/= 1 <- DeutschJozsa(N, Oracle_One_Reference);
-    set result w/= 2 <- DeutschJozsa(N, Oracle_OddNumberOfOnes_Reference);
-    set result w/= 3 <- DeutschJozsa(N, Oracle_Kth_Qubit_Reference(_,_,1));
-    return result;
+  operation RunDeutschJozsa(N : Int) : Unit {
+    Message("Running the Deutsch Josza Problem");
+    Message("--------------------------------");
+    // mutable result = new Bool[4];
+    let operator_list = [Oracle_Zero_Reference, 
+                         Oracle_One_Reference, 
+                         Oracle_OddNumberOfOnes_Reference];
+    for (i in 0..2) {
+      let result = DeutschJozsa(N, operator_list[i]);
+      Message($"{operator_list[i]} is a constant function?: {result}");
+    }
+    Message("");
   }
 
-  operation RunBernsteinVazirani() : Int[]{
-    let oracle = Oracle_ProductFunction_Reference(_, _, [1, 1, 1, 0]);
-    mutable result = BernsteinVazirani(Length([1, 1, 1, 0]), oracle);
-    return result;
+  operation RunBernsteinVazirani() : Unit{
+    let a = [1, 1, 1, 0];
+    Message("Running the Bernstein Vazirani Problem");
+    Message("--------------------------------");
+    // This oracle function calculates (x*a + 2)
+    let oracle = Oracle_ProductFunction_Reference(_, _, a);
+    mutable result = BernsteinVazirani(Length(a), oracle);
+    Message($"'a' in oracle: {a}");
+    Message($"Result after running Quantum Algorithm: {result}");
   }
 }

@@ -2,6 +2,7 @@
 
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
+using Microsoft.Quantum.Simulation.Common;
 
 namespace deutsch_jozsa
 {
@@ -11,10 +12,9 @@ namespace deutsch_jozsa
     {
       var qsim = new QuantumSimulator();
       var numQubits = 3;
-      Result[] bitseq = new Result[] {Result.One, Result.One, Result.Zero, Result.One};
-      var result_dj = RunDeutschJozsa.Run(qsim, numQubits).Result;
-      // var result_bv = RunBernsteinVazirani.Run(qsim).Result;
-      System.Console.Write(result_dj);     
+      var result1 = RunDeutschJozsa.Run(qsim, numQubits).Result;
+      var result2 = RunBernsteinVazirani.Run(qsim).Result;
+      // System.Console.Write(result_dj);     
       // System.Console.Write(result_bv);   
     }
   }

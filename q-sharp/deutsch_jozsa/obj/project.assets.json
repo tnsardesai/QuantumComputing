@@ -989,11 +989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/deutsch_jozsa.csproj",
+      "projectUniqueName": "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/deutsch_jozsa.csproj",
       "projectName": "deutsch_jozsa",
-      "projectPath": "/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/deutsch_jozsa.csproj",
+      "projectPath": "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/deutsch_jozsa.csproj",
       "packagesPath": "/Users/arnavgarg/.nuget/packages/",
-      "outputPath": "/Users/arnavgarg/Desktop/code/personal/quantum_applications/ignore/deutsch_jozsa/obj/",
+      "outputPath": "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
