@@ -12,7 +12,7 @@ namespace Grover
             using (var qsim = new QuantumSimulator())
             {
                 var result = RunGroverSearch.Run(qsim).Result;
-                System.Console.Write(result);
+                System.Console.WriteLine($"f(x) is 1 for x= {result}");
             }
         }
     }
