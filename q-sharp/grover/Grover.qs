@@ -8,47 +8,12 @@
     open Microsoft.Quantum.Math;
 
     
-    //////////////////////////////////////////////////////////////////
-    // Part I. Oracles for Grover's Search
-    //////////////////////////////////////////////////////////////////
-    
-    // Task 1.1. The |11...1⟩ oracle
-    operation Oracle_AllOnes_Reference (queryRegister : Qubit[], target : Qubit) : Unit
-    is Adj {        
-        Controlled X(queryRegister, target);
-    }
-    
-    
-    // Task 1.2. The |1010...⟩ oracle
-    operation Oracle_AlternatingBits_Reference (queryRegister : Qubit[], target : Qubit) : Unit
-    is Adj {
-
-        // flip the bits in odd (0-based positions),
-        // so that the condition for flipping the state of the target qubit is "query register is in 1...1 state"
-        FlipOddPositionBits_Reference(queryRegister);
-        Controlled X(queryRegister, target);
-        Adjoint FlipOddPositionBits_Reference(queryRegister);
-    }
-    
-    
-    operation FlipOddPositionBits_Reference (register : Qubit[]) : Unit
-    is Adj {
-        
-        // iterate over elements in odd positions (indexes are 0-based)
-        for (i in 1 .. 2 .. Length(register) - 1) {
-            X(register[i]);
-        }
-    }
-    
-    
-    // Task 1.3. Arbitrary bit pattern oracle
-    operation Oracle_ArbitraryPattern_Reference (queryRegister : Qubit[], target : Qubit, pattern : Bool[]) : Unit
+    operation Oracle_Reference (queryRegister : Qubit[], target : Qubit, pattern : Bool[]) : Unit
     is Adj {        
         (ControlledOnBitString(pattern, X))(queryRegister, target);
     }
     
     
-    // Task 1.4*. Oracle converter
     operation OracleConverterImpl_Reference (markingOracle : ((Qubit[], Qubit) => Unit is Adj), register : Qubit[]) : Unit
     is Adj {
         
@@ -71,32 +36,17 @@
     function OracleConverter_Reference (markingOracle : ((Qubit[], Qubit) => Unit is Adj)) : (Qubit[] => Unit is Adj) {
         return OracleConverterImpl_Reference(markingOracle, _);
     }
-    
-    
-    //////////////////////////////////////////////////////////////////
-    // Part II. The Grover iteration
-    //////////////////////////////////////////////////////////////////
-    
-    // Task 2.1. The Hadamard transform
-    operation HadamardTransform_Reference (register : Qubit[]) : Unit
-    is Adj {
-        
-        ApplyToEachA(H, register);
 
-        // ApplyToEach is a library routine that is equivalent to the following code:
-        // let nQubits = Length(register);
-        // for (idxQubit in 0..nQubits - 1) {
-        //     H(register[idxQubit]);
-        // }
+    operation HadamardTransform_Reference (register : Qubit[]) : Unit
+    is Adj {        
+        ApplyToEachA(H, register);
     }
     
-    
-    // Task 2.2. Conditional phase flip
     operation ConditionalPhaseFlip_Reference (register : Qubit[]) : Unit {
         
         body (...) {
             // Define a marking oracle which detects an all zero state
-            let allZerosOracle = Oracle_ArbitraryPattern_Reference(_, _, new Bool[Length(register)]);
+            let allZerosOracle = Oracle_Reference(_, _, new Bool[Length(register)]);
             
             // Convert it into a phase-flip oracle and apply it
             let flipOracle = OracleConverter_Reference(allZerosOracle);
@@ -108,7 +58,7 @@
     
     
     operation PhaseFlip_ControlledZ (register : Qubit[]) : Unit {
-        
+
         body (...) {
             // Alternative solution, described at https://quantumcomputing.stackexchange.com/questions/4268/how-to-construct-the-inversion-about-the-mean-operator/4269#4269
             ApplyToEachA(X, register);
@@ -120,7 +70,6 @@
     }
     
     
-    // Task 2.3. The Grover iteration
     operation GroverIteration_Reference (register : Qubit[], oracle : (Qubit[] => Unit is Adj)) : Unit
     is Adj {
         
@@ -131,11 +80,6 @@
     }
     
     
-    //////////////////////////////////////////////////////////////////
-    // Part III. Putting it all together: Grover's search algorithm
-    //////////////////////////////////////////////////////////////////
-    
-    // Task 3.1. Grover's search
     operation GroversSearch_Reference (register : Qubit[], oracle : ((Qubit[], Qubit) => Unit is Adj), iterations : Int) : Unit
     is Adj {
         
@@ -148,19 +92,30 @@
     }
 
     operation RunGroverSearch() : Int[] {
-        let pattern = [false, true, true];//IntAsBoolArray(RandomIntPow2(3), 3);
-        let markingOracle = Oracle_ArbitraryPattern_Reference(_, _, pattern);
+        // Number of qubits
+        let n = 5;
+        // Define the x such that f(x) = 1.
+        let pattern = [false, false, true, true, false];
+
+        // Get the oracle
+        let markingOracle = Oracle_Reference(_, _, pattern);
         let oracle = OracleConverter_Reference(markingOracle);
         
-        using (x = Qubit[3]) {
-            HadamardTransform_Reference(x);
+        // Run the Grover search algorithm
+        using (x = Qubit[n]) {
             
-            for (i in 1 .. 2) {
+            // Hadamard Transform
+            HadamardTransform_Reference(x);
+        
+            let iterations = Floor((3.14/4.0) * Sqrt(PowD(2.0, IntAsDouble(n))));
+            Message($"Number of iterations: {iterations}");
+            
+            for (i in 1 .. iterations) {
                 GroverIteration_Reference(x, oracle);
             }
 
-            mutable r = new Int[3];
-            for (i in 0..2) {
+            mutable r = new Int[n];
+            for (i in 0..(n-1)) {
                 if (M(x[i]) != Zero) {
                     set r w/= i <- 1;
                 }
@@ -170,9 +125,5 @@
 
             return r;
         }
-
-
     }
-
-
 }
