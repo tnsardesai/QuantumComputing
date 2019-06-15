@@ -31,7 +31,10 @@ namespace Quantum.Kata.SimonsAlgorithm
         [OperationDriver(TestNamespace = "Quantum.Kata.SimonsAlgorithm")]
         public void TestTarget(TestOperation op)
         {
+            var watch = new System.Diagnostics.Stopwatch();
+
             System.Console.WriteLine($"Testing for Oracle: {op.fullClassName}");
+            watch.Start();
             using (var sim = new OracleCounterSimulator())
             {
                 // OnLog defines action(s) performed when Q# test calls function Message
@@ -39,6 +42,8 @@ namespace Quantum.Kata.SimonsAlgorithm
                 sim.OnLog += msg => { Debug.WriteLine(msg); };
                 op.TestOperationRunner(sim);
             }
+            watch.Stop();
+            System.Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
         }
     }
 }

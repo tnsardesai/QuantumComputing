@@ -12,8 +12,12 @@ namespace deutsch_jozsa
     {
       var qsim = new QuantumSimulator();
       var numQubits = 3;
+      var watch = new System.Diagnostics.Stopwatch();
+      watch.Start();
       var result1 = RunDeutschJozsa.Run(qsim, numQubits).Result;
-      var result2 = RunBernsteinVazirani.Run(qsim).Result;
+      watch.Stop();
+      System.Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+      // var result2 = RunBernsteinVazirani.Run(qsim).Result;
       // System.Console.Write(result_dj);     
       // System.Console.Write(result_bv);   
     }

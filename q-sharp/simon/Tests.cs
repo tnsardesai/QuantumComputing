@@ -110,7 +110,7 @@ namespace Q22
         public void Test(Instance instance)
         {
             var sim = new OracleCounterSimulator();
-            
+            System.Console.WriteLine($"{instance.Kernel.Count}");
             var len = instance.Kernel.Count;
             var saver = new List<IQArray<long>>();
 

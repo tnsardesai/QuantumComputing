@@ -1,0 +1,11 @@
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/bin/Debug/netcoreapp2.0/Grover.deps.json
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/bin/Debug/netcoreapp2.0/Grover.runtimeconfig.json
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/bin/Debug/netcoreapp2.0/Grover.runtimeconfig.dev.json
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/bin/Debug/netcoreapp2.0/Grover.dll
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/bin/Debug/netcoreapp2.0/Grover.pdb
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/Debug/netcoreapp2.0/Grover.csprojAssemblyReference.cache
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/Debug/netcoreapp2.0/Grover.csproj.CoreCompileInputs.cache
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/Debug/netcoreapp2.0/Grover.AssemblyInfoInputs.cache
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/Debug/netcoreapp2.0/Grover.AssemblyInfo.cs
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/Debug/netcoreapp2.0/Grover.dll
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/Debug/netcoreapp2.0/Grover.pdb

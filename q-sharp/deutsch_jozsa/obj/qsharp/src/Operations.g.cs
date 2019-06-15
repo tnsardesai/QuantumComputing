@@ -4,26 +4,26 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_Zero_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":8,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":35}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":47},\"Item2\":{\"Line\":1,\"Column\":48}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_Zero_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":8,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_Zero_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":8,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":6},\"Item2\":{\"Line\":2,\"Column\":9}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_Zero_Reference\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_One_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":15,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":34}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":46},\"Item2\":{\"Line\":1,\"Column\":47}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_One_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":15,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_One_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":15,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":6},\"Item2\":{\"Line\":2,\"Column\":9}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_One_Reference\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_OddNumberOfOnes_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":20,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":46}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":58},\"Item2\":{\"Line\":1,\"Column\":59}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_OddNumberOfOnes_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":20,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_OddNumberOfOnes_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":20,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":8},\"Item2\":{\"Line\":2,\"Column\":11}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_OddNumberOfOnes_Reference\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_ProductFunction_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":27,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":46}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":58},\"Item2\":{\"Line\":1,\"Column\":59}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"r\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":69},\"Item2\":{\"Line\":1,\"Column\":70}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_ProductFunction_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":27,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_ProductFunction_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":27,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":8},\"Item2\":{\"Line\":2,\"Column\":11}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_ProductFunction_Reference\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"DeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":38,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Uf\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":36}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]}]]},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"DeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":38,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"BernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":67,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":31}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Uf\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":41}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"BernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":67,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunDeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":94,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":27},\"Item2\":{\"Line\":1,\"Column\":28}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunDeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":94,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunBernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":108,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunBernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":108,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_Zero_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":8,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":35}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":47},\"Item2\":{\"Line\":1,\"Column\":48}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_Zero_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":8,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_Zero_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":8,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":6},\"Item2\":{\"Line\":2,\"Column\":9}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_Zero_Reference\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_One_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":15,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":34}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":46},\"Item2\":{\"Line\":1,\"Column\":47}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_One_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":15,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_One_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":15,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":6},\"Item2\":{\"Line\":2,\"Column\":9}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_One_Reference\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_OddNumberOfOnes_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":20,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":46}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":58},\"Item2\":{\"Line\":1,\"Column\":59}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_OddNumberOfOnes_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":20,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_OddNumberOfOnes_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":20,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":8},\"Item2\":{\"Line\":2,\"Column\":11}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_OddNumberOfOnes_Reference\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_ProductFunction_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":27,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":46}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":58},\"Item2\":{\"Line\":1,\"Column\":59}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"r\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":69},\"Item2\":{\"Line\":1,\"Column\":70}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_ProductFunction_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":27,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":43}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"Oracle_ProductFunction_Reference\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":27,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":2,\"Column\":8},\"Item2\":{\"Line\":2,\"Column\":11}},\"Documentation\":[\"automatically generated QsAdjoint specialization for deutsch_jozsa.Oracle_ProductFunction_Reference\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"DeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":38,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Uf\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":36}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]}]]},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"DeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":38,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"BernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":67,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":31}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Uf\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":41}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"BernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":67,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunDeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":94,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"IsMutable\":false,\"HasLocalQuantumDependency\":false,\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":27},\"Item2\":{\"Line\":1,\"Column\":28}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunDeutschJozsa\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":94,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunBernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":108,\"Item2\":2},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Affiliation\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"deutsch_jozsa\",\"Name\":\"RunBernsteinVazirani\"},\"SourceFile\":\"/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs\",\"Position\":{\"Item1\":108,\"Item2\":2},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
 #line hidden
 namespace deutsch_jozsa
 {
@@ -98,7 +98,7 @@ namespace deutsch_jozsa
         public override Func<(IQArray<Qubit>,Qubit), QVoid> Body => (__in__) =>
         {
             var (x,y) = __in__;
-#line 18 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 18 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicX.Apply(y);
 #line hidden
             return QVoid.Instance;
@@ -160,11 +160,11 @@ namespace deutsch_jozsa
         public override Func<(IQArray<Qubit>,Qubit), QVoid> Body => (__in__) =>
         {
             var (x,y) = __in__;
-#line 23 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 23 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             foreach (var q in x)
 #line hidden
             {
-#line 24 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 24 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                 MicrosoftQuantumIntrinsicCNOT.Apply((q, y));
             }
 
@@ -253,16 +253,16 @@ namespace deutsch_jozsa
         public override Func<(IQArray<Qubit>,Qubit,IQArray<Int64>), QVoid> Body => (__in__) =>
         {
             var (x,y,r) = __in__;
-#line 30 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 30 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumDiagnosticsEqualityFactI.Apply((x.Length, r.Length, "Arrays should have the same length"));
-#line 32 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 32 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             foreach (var i in MicrosoftQuantumArraysIndexRange.Apply<Range>(x))
 #line hidden
             {
-#line 33 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 33 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                 if ((r[i] == 1L))
                 {
-#line 34 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 34 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicCNOT.Apply((x[i], y));
                 }
             }
@@ -385,51 +385,51 @@ namespace deutsch_jozsa
         public override Func<(Int64,ICallable), Boolean> Body => (__in__) =>
         {
             var (N,Uf) = __in__;
-#line 40 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 40 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             var result = true;
 #line hidden
             {
-#line 41 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 41 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                 var (x,b) = (Allocate.Apply(N), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 42 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 42 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumCanonApplyToEachA.Apply((MicrosoftQuantumIntrinsicH, x));
-#line 43 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 43 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicX.Apply(b);
-#line 44 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 44 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicH.Apply(b);
-#line 46 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 46 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     Uf.Apply((x, b));
-#line 48 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 48 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumCanonApplyToEach.Apply((MicrosoftQuantumIntrinsicH, x));
-#line 50 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 50 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     var r = QArray<Int64>.Create(N);
-#line 52 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 52 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     foreach (var i in new Range(0L, (N - 1L)))
 #line hidden
                     {
-#line 53 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 53 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                         if ((MicrosoftQuantumIntrinsicM.Apply(x[i]) != Result.Zero))
                         {
-#line 54 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 54 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                             r.Modify(i, 1L);
                         }
                     }
 
-#line 58 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 58 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     foreach (var i in new Range(0L, (N - 1L)))
 #line hidden
                     {
-#line 59 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 59 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                         result = (result && (r[i] == 0L));
                     }
 
-#line 61 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 61 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicResetAll.Apply(x);
-#line 62 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 62 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicReset.Apply(b);
                 }
 #line hidden
@@ -453,7 +453,7 @@ namespace deutsch_jozsa
                 }
             }
 
-#line 64 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 64 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             return result;
         }
 
@@ -555,41 +555,41 @@ namespace deutsch_jozsa
             var (N,Uf) = __in__;
 #line hidden
             {
-#line 69 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 69 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                 var (x,b) = (Allocate.Apply(N), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 71 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 71 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumCanonApplyToEachA.Apply((MicrosoftQuantumIntrinsicH, x));
-#line 72 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 72 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicX.Apply(b);
-#line 73 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 73 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicH.Apply(b);
-#line 75 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 75 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     Uf.Apply((x, b));
-#line 77 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 77 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumCanonApplyToEach.Apply((MicrosoftQuantumIntrinsicH, x));
-#line 79 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 79 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     var r = QArray<Int64>.Create(N);
-#line 81 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 81 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     foreach (var i in new Range(0L, (N - 1L)))
 #line hidden
                     {
-#line 82 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 82 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                         if ((MicrosoftQuantumIntrinsicM.Apply(x[i]) != Result.Zero))
                         {
-#line 83 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 83 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                             r.Modify(i, 1L);
                         }
                     }
 
-#line 87 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 87 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicResetAll.Apply(x);
-#line 88 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 88 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     MicrosoftQuantumIntrinsicReset.Apply(b);
-#line 90 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 90 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
                     return r;
                 }
 #line hidden
@@ -662,38 +662,20 @@ namespace deutsch_jozsa
             set;
         }
 
-        protected IAdjointable<(IQArray<Qubit>,Qubit)> Oracle_One_Reference
-        {
-            get;
-            set;
-        }
-
-        protected IAdjointable<(IQArray<Qubit>,Qubit)> Oracle_Zero_Reference
-        {
-            get;
-            set;
-        }
-
         public override Func<Int64, QVoid> Body => (__in__) =>
         {
             var N = __in__;
-#line 96 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 96 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply("Running the Deutsch Josza Problem");
-#line 97 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 97 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply("--------------------------------");
-#line 99 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
-            var operator_list = (IQArray<IAdjointable>)new QArray<IAdjointable>(Oracle_Zero_Reference, Oracle_One_Reference, Oracle_OddNumberOfOnes_Reference);
-#line 102 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
-            foreach (var i in new Range(0L, 2L))
-#line hidden
-            {
-#line 103 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
-                var result = DeutschJozsa.Apply((N, operator_list[i]));
-#line 104 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
-                MicrosoftQuantumIntrinsicMessage.Apply(String.Format("{0} is a constant function?: {1}", operator_list[i], result));
-            }
-
-#line 106 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 99 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+            var operator_list = (IQArray<IAdjointable>)new QArray<IAdjointable>(Oracle_OddNumberOfOnes_Reference);
+#line 103 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+            var result = DeutschJozsa.Apply((N, operator_list[0L]));
+#line 104 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+            MicrosoftQuantumIntrinsicMessage.Apply(String.Format("{0} is a constant function?: {1}", operator_list[0L], result));
+#line 106 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply("");
 #line hidden
             return QVoid.Instance;
@@ -705,8 +687,6 @@ namespace deutsch_jozsa
             this.MicrosoftQuantumIntrinsicMessage = this.Factory.Get<ICallable<String, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Message));
             this.DeutschJozsa = this.Factory.Get<ICallable<(Int64,ICallable), Boolean>>(typeof(DeutschJozsa));
             this.Oracle_OddNumberOfOnes_Reference = this.Factory.Get<IAdjointable<(IQArray<Qubit>,Qubit)>>(typeof(Oracle_OddNumberOfOnes_Reference));
-            this.Oracle_One_Reference = this.Factory.Get<IAdjointable<(IQArray<Qubit>,Qubit)>>(typeof(Oracle_One_Reference));
-            this.Oracle_Zero_Reference = this.Factory.Get<IAdjointable<(IQArray<Qubit>,Qubit)>>(typeof(Oracle_Zero_Reference));
         }
 
         public override IApplyData __dataIn(Int64 data) => new QTuple<Int64>(data);
@@ -751,19 +731,19 @@ namespace deutsch_jozsa
 
         public override Func<QVoid, QVoid> Body => (__in__) =>
         {
-#line 110 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 110 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             var a = (IQArray<Int64>)new QArray<Int64>(1L, 1L, 1L, 0L);
-#line 111 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 111 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply("Running the Bernstein Vazirani Problem");
-#line 112 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 112 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply("--------------------------------");
-#line 114 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 114 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             var oracle = Oracle_ProductFunction_Reference.Partial(new Func<(IQArray<Qubit>,Qubit), (IQArray<Qubit>,Qubit,IQArray<Int64>)>((__arg1__) => (__arg1__.Item1, __arg1__.Item2, a)));
-#line 115 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 115 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             var result = new QArray<Int64>(BernsteinVazirani.Apply((a.Length, oracle)));
-#line 116 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 116 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply(String.Format("'a' in oracle: {0}", a));
-#line 117 "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
+#line 117 "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/Operations.qs"
             MicrosoftQuantumIntrinsicMessage.Apply(String.Format("Result after running Quantum Algorithm: {0}", result));
 #line hidden
             return QVoid.Instance;

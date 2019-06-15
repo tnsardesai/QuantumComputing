@@ -20,3 +20,14 @@
 /Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.AssemblyInfo.cs
 /Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.dll
 /Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.pdb
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.deps.json
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.runtimeconfig.json
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.runtimeconfig.dev.json
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.dll
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/bin/Debug/netcoreapp2.0/deutsch_jozsa.pdb
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.csprojAssemblyReference.cache
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.csproj.CoreCompileInputs.cache
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.AssemblyInfoInputs.cache
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.AssemblyInfo.cs
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.dll
+/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/deutsch_jozsa/obj/Debug/netcoreapp2.0/deutsch_jozsa.pdb

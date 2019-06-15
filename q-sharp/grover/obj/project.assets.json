@@ -989,11 +989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/Grover.csproj",
+      "projectUniqueName": "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/Grover.csproj",
       "projectName": "Grover",
-      "projectPath": "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/Grover.csproj",
+      "projectPath": "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/Grover.csproj",
       "packagesPath": "/Users/arnavgarg/.nuget/packages/",
-      "outputPath": "/Users/arnavgarg/Desktop/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/",
+      "outputPath": "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/grover/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

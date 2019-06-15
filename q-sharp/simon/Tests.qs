@@ -160,7 +160,7 @@ namespace Quantum.Kata.SimonsAlgorithm {
     
     // ------------------------------------------------------
     operation cs_helper (N : Int, Matrix : Int[][]) : (Int[], ((Qubit[], Qubit[]) => Unit)) {
-        let Uf = Oracle_MultidimensionalOperatorOutput_Reference(_, _, Matrix);
+        let Uf = Oracle_MultidimensionalOperatorOutput(_, _, Matrix);
         return (Simon_Algorithm(N, Uf), Uf);
     }
     

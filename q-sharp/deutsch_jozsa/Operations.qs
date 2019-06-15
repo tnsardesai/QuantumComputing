@@ -96,13 +96,13 @@
     Message("Running the Deutsch Josza Problem");
     Message("--------------------------------");
     // mutable result = new Bool[4];
-    let operator_list = [Oracle_Zero_Reference, 
-                         Oracle_One_Reference, 
-                         Oracle_OddNumberOfOnes_Reference];
-    for (i in 0..2) {
-      let result = DeutschJozsa(N, operator_list[i]);
-      Message($"{operator_list[i]} is a constant function?: {result}");
-    }
+    let operator_list = [Oracle_OddNumberOfOnes_Reference] ;
+                        //  Oracle_One_Reference, 
+                        //  Oracle_OddNumberOfOnes_Reference];
+    // for (i in 0..2) {
+    let result = DeutschJozsa(N, operator_list[0]);
+    Message($"{operator_list[0]} is a constant function?: {result}");
+    // }
     Message("");
   }
 

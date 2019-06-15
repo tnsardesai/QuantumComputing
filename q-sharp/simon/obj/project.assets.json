@@ -5935,11 +5935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arnavgarg/Desktop/QuantumKatas/SimonsAlgorithm/SimonsAlgorithm.csproj",
+      "projectUniqueName": "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/simon/SimonsAlgorithm.csproj",
       "projectName": "SimonsAlgorithm",
-      "projectPath": "/Users/arnavgarg/Desktop/QuantumKatas/SimonsAlgorithm/SimonsAlgorithm.csproj",
+      "projectPath": "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/simon/SimonsAlgorithm.csproj",
       "packagesPath": "/Users/arnavgarg/.nuget/packages/",
-      "outputPath": "/Users/arnavgarg/Desktop/QuantumKatas/SimonsAlgorithm/obj/",
+      "outputPath": "/Users/arnavgarg/Desktop/ucla/Courses/CS239/homework/homework8/code/QuantumComputing/q-sharp/simon/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
